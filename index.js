@@ -4,7 +4,7 @@ async function run() {
     let browser;
     try {
 
-        const auth = 'brd-customer-hl_e57c5d80-zone-zone1:d5v8r488lutz';
+        const auth = 'USERNAME:PASSWORD';
       
         browser = await puppeteer.connect({
             browserWSEndpoint: `wss://${auth}@zproxy.lum-superproxy.io:9222`,
